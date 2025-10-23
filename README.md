@@ -22,5 +22,6 @@ To run this iPython Notebook, remove the google cloud mount section:
 from google.colab import drive
 drive.mount('/content/drive')
 
-and add in the local path to the data chinese characters data set in this line YOUR_PATH = /home/user/custom_user_demo_dir/chineseMNIST.csv 
-dfdigit = pd.read_csv('YOUR_PATH')
+and add in the local path to the data chinese characters data set in this line 
+$ dfdigit = pd.read_csv('YOUR_PATH') $
+where YOUR_PATH is the custom path to the data set, e.g YOUR_PATH = /home/user/custom_user_demo_dir/chineseMNIST.csv 
